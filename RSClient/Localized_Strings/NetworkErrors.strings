@@ -1,0 +1,93 @@
+/* 
+  NetworkErrors.strings
+  ChefD
+
+  Created by YML on 02/03/16.
+  Copyright © 2015 YML. All rights reserved.
+*/
+
+/* HTTP ERROR MESSAGES  */
+
+"300" = "The client and server could not agree on a supported authentication type.";
+"301" = "The credentials provided for an authenticated connection were rejected by the server.";
+"302" = "The connection to the server was dropped. This usually indicates a highly overloaded server.";
+"303" = "The HTTP server response could not be parsed.";
+"304" = "Too many HTTP redirects occurred before reaching a page that did not redirect the client to another page. This usually indicates a redirect loop";
+"305" = "The requested URL could not be retrieved.";
+"306" = "A connection could not be established to the HTTP proxy.";
+"307" = "The authentication credentials provided for logging into the proxy were rejected.";
+"308" = "An error occurred with the proxy autoconfiguration file.";
+"309" = "The authentication credentials provided by the proxy autoconfiguration file were rejected.";
+"310" = "A connection could not be established to the HTTPS proxy.";
+"311" = "The HTTPS proxy returned an unexpected status code, such as a 3xx redirect.";
+
+/* Client Error messages */
+
+"400" = "The server cannot the request due to malformed or invalid request.";
+"401" = "Unauthorized access";
+"402" = "Payment Required";
+"403" = "Unauthorized access";
+"404" = "The requested resource could not be found";
+"405" = "A request was made of a resource using a request method not supported by that resource.";
+"406" = "The requested resource is only capable of generating content not acceptable according to the Accept headers sent in the request.";
+"408" = "The server timed out waiting for the request.";
+"409" = "The request could not be processed because of conflict in the request";
+"498" = "The session token is either invalid or has expired. Please sign in again.";
+"499" = "A token is required to perform the request.";
+
+/* CFURLConnection & CFURLProtocol Errors */
+
+"-998"  =   "An unknown error occurred.";
+"-999"  =   "The connection was cancelled.";
+"-1000" =   "The connection failed due to a malformed URL.";
+"-1001" =   "The connection timed out.";
+"-1002" =   "The connection failed due to an unsupported URL scheme.";
+"-1003" =   "The connection failed because the host could not be found.";
+"-1004" =   "The connection failed because a connection cannot be made to the host.";
+"-1005" =   "The connection failed because the network connection was lost.";
+"-1006" =   "The connection failed because the DNS lookup failed.";
+"-1007" =   "The HTTP connection failed due to too many redirects.";
+"-1008" =   "The connection’s resource is unavailable.";
+"-1009" =   "Internet connection appears to be offline!";
+"-1010" =   "The connection was redirected to a nonexistent location.";
+"-1011" =   "The connection received an invalid server response.";
+"-1012" =   "The connection failed because the user cancelled required authentication.";
+"-1013" =   "The connection failed because authentication is required.";
+"-1014" =   "The resource retrieved by the connection is zero bytes.";
+"-1015" =   "The connection cannot decode data encoded with a known content encoding.";
+"-1016" =   "The connection cannot decode data encoded with an unknown content encoding.";
+"-1017" =   "The connection cannot parse the server’s response.";
+"-1018" =   "The connection failed because international roaming is disabled on the device.";
+"-1019" =   "The connection failed because a call is active.";
+"-1020" =   "The connection failed because data use is currently not allowed on the device.";
+"-1021" =   "The connection failed because its request’s body stream was exhausted.";
+
+/* File Errors */
+
+"-1100" =   "The file operation failed because the file does not exist.";
+"-1101" =   "The file operation failed because the file is a directory.";
+"-1102" =   "The file operation failed because it does not have permission to read the file.";
+"-1103" =   "The file operation failed because the file is too large.";
+
+
+/* SSL Errors */
+
+"-1200" =   "The secure connection failed for an unknown reason.";
+"-1201" =   "The secure connection failed because the server’s certificate has an invalid date.";
+"-1202" =   "The secure connection failed because the server’s certificate is not trusted.";
+"-1203" =   "The secure connection failed because the server’s certificate has an unknown root.";
+"-1204" =   "The secure connection failed because the server’s certificate is not yet valid.";
+"-1205" =   "The secure connection failed because the client’s certificate was rejected.";
+"-1206" =   "The secure connection failed because the server requires a client certificate.";
+
+/*  Download and File I/O Errors */
+
+"-2000" =   "The connection failed because it is being required to return a cached resource, but one is not available.";
+"-3000" =   "The file cannot be created.";
+"-3001" =   "The file cannot be opened.";
+"-3002" =   "The file cannot be closed.";
+"-3003" =   "The file cannot be written.";
+"-3004" =   "The file cannot be removed.";
+"-3005" =   "The file cannot be moved.";
+"-3006" =   "The download failed because decoding of the downloaded data failed mid-stream.";
+"-3007" =   "The download failed because decoding of the downloaded data failed to complete.";
